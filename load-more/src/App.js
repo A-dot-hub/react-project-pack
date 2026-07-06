@@ -1,10 +1,10 @@
 import "./App.css";
-import StarRating from "./components/starRating";
+import LoadMoreData from "./components/loadmoreData";
 
 function App() {
   return (
     <div className="App">
-      <StarRating noOfStars={10} />
+      <LoadMoreData />
     </div>
   );
 }
