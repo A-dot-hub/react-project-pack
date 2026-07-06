@@ -1,10 +1,10 @@
 import "./App.css";
-import StarRating from "./components/starRating";
+import Weather from "./components/weather";
 
 function App() {
   return (
     <div className="App">
-      <StarRating noOfStars={10} />
+      <Weather />
     </div>
   );
 }
